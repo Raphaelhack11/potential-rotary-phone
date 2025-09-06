@@ -1,20 +1,21 @@
 {
-  "name": "clothing-shop",
+  "name": "crypto-shop",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0 --port 3000",
-    "start": "vite preview --host 0.0.0.0 --port 3000"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^5.2.0"
+    "gh-pages": "^6.1.1",
+    "vite": "^4.5.0"
   }
 }
